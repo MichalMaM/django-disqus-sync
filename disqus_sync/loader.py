@@ -1,4 +1,4 @@
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 from django.core.cache import cache
 
