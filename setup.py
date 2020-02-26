@@ -30,8 +30,5 @@ setup(
         'django>=1.3',
         'disqus-python'
     ],
-    setup_requires=[
-        'setuptools_dummy',
-    ],
     dependency_links = ['https://github.com/disqus/disqus-python.git#egg=disqus-python']
 )
